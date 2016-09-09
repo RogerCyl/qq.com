@@ -1,0 +1,68 @@
+body {
+	font: 14px "宋体", "Arial Narrow", HELVETICA;
+	color: #172c45;
+}
+
+h2 {
+	font-size: 14px;
+	color: #0873c0;
+}
+
+h3 {
+	font-size: 14px;
+	color: #0873c0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #172c45;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/*导航样式*/
+.navBeta {
+	font-size: 14px;
+	font-family: "STHeiti", "Microsoft YaHei", "宋体", "arial";
+	background-color: #3d95d5;
+	color: #fff;
+}
+
+.navBeta a {
+	color: #fff;
+}
+
+.navBeta a:hover {
+	color: #0d519c;
+	background: #cae1ee;
+	text-decoration: none;
+}
+
+.navBetaInner div {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+/*底部样式*/
+.footernew {
+	text-align: center;
+	font-size: 12px;
+}
+
+.footernew a.lchot {
+	color: red;
+}
+
+.footernew p {
+	border: 1px solid;
+	float: left;
+	padding: 10px;
+	margin: 6px;
+}
