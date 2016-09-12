@@ -1,68 +1,104 @@
 body {
-	font: 14px "宋体", "Arial Narrow", HELVETICA;
-	color: #172c45;
+    font: 14px '宋体', 'Arial Narrow', HELVETICA;
+
+    color: #172c45;
 }
 
 h2 {
-	font-size: 14px;
-	color: #0873c0;
+    font-size: 14px;
+
+    color: #0873c0;
 }
 
 h3 {
-	font-size: 14px;
-	color: #0873c0;
+    font-size: 14px;
+
+    color: #0873c0;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:link {
-	color: #172c45;
+    color: #172c45;
 }
 
 a:hover {
-	color: red;
-	text-decoration: underline;
+    text-decoration: underline;
+
+    color: red;
 }
 
 /*导航样式*/
 .navBeta {
-	font-size: 14px;
-	font-family: "STHeiti", "Microsoft YaHei", "宋体", "arial";
-	background-color: #3d95d5;
-	color: #fff;
+    font-family: 'STHeiti', 'Microsoft YaHei', '宋体', 'arial';
+    font-size: 14px;
+    line-height: 22px;
+
+    width: 988px;
+    height: 57px;
+    margin: auto;
+
+    color: #fff;
+    background: url(chanelNavBeta2.jpg) no-repeat;
 }
 
 .navBeta a {
-	color: #fff;
+    margin-right: 4px;
+    margin-left: 3px;
+    padding: 3px;
+
+    color: #fff;
 }
 
 .navBeta a:hover {
-	color: #0d519c;
-	background: #cae1ee;
-	text-decoration: none;
+    text-decoration: none;
+
+    color: #0d519c;
+    background: #cae1ee;
+}
+
+.navBeta div {
+    line-height: 22px;
+
+    height: 25px;
+
+    text-align: left;
 }
 
 .navBetaInner div {
-	float: left;
-	padding: 0;
-	margin: 0;
+    display: block;
+    float: left;
+
+    width: 126px;
+    padding: 0 10px 0 10px;
 }
 
 /*底部样式*/
 .footernew {
-	text-align: center;
-	font-size: 12px;
+    font-size: 12px;
+
+    text-align: center;
 }
 
 .footernew a.lchot {
-	color: red;
+    color: red;
 }
 
-.footernew p {
-	border: 1px solid;
-	float: left;
-	padding: 10px;
-	margin: 6px;
+.footernewplat {
+    font-size: 12px;
+
+    text-align: center;
+}
+
+.footernewplat p {
+    float: left;
+
+    margin: 6px;
+    padding: 10px;
+
+    text-align: center;
+
+    border: 1px solid;
 }
