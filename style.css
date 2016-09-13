@@ -4,14 +4,21 @@ body {
     color: #172c45;
 }
 
-h2 {
+.hd h2 {
     font-size: 14px;
 
     color: #0873c0;
 }
 
-h3 {
+.hd h2 a {
     font-size: 14px;
+
+    color: #0873c0;
+}
+
+.bd h3 a{
+    font-size: 14px;
+    line-height: 26px;
 
     color: #0873c0;
 }
@@ -30,6 +37,22 @@ a:hover {
     color: red;
 }
 
+ul, h3 {
+	margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none outside none;
+    margin: 0px;
+    height: 28px;
+    line-height: 28px;
+}
+
+div {
+    display: block;
+}
+
 /*导航样式*/
 .navBeta {
     font-family: 'STHeiti', 'Microsoft YaHei', '宋体', 'arial';
@@ -39,6 +62,7 @@ a:hover {
     width: 988px;
     height: 57px;
     margin: auto;
+    padding: 8px 0 0 12px;
 
     color: #fff;
     background: url(chanelNavBeta2.jpg) no-repeat;
@@ -75,11 +99,101 @@ a:hover {
     padding: 0 10px 0 10px;
 }
 
+.fl {
+    display: inline;
+    float: left;
+}
+
+.fr {
+    display: inline;
+    float: right;
+}
+
+.layout {
+    margin: auto;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.leftAreaContent .bd {
+    padding: 16px 0 8px;
+    width: 320px;
+}
+
+.leftAreaContent .ft {
+    clear: both;
+    width: 320px;
+}
+
+.leftArea {
+    float: left;
+
+    width: 660px;
+}
+
+.rightArea {
+    float: right;
+
+    width: 318px;
+}
+
+.imgArea {
+    float: left;
+
+    width: 108px;
+    height: 70px;
+}
+
+.txtArea {
+    float: right;
+
+    width: 182px;
+    padding: 5px 15px 0 0;
+}
+
+#qqMeishi .hd {
+    border-top: 1px solid #6daaea;
+}
+
+#arealife .hd {
+    border-top: 1px solid #6daaea;
+}
+
+#tencentinfor .hd {
+    border-top: 1px solid #6daaea;
+}
+
+.txDynamic .hd {
+    float: left;
+    padding: 8px 15px 7px 0;
+    width: 305px;
+}
+
+.txDynamic .bd {
+    float: left;
+    padding: 3px 10px 9px 0;
+    width: 310px;
+}
+
+.picFocus {
+	width: 1000px;
+}
+
+.picFocus .hd{
+    width: 1000px;
+}
+
+
 /*底部样式*/
 .footernew {
     font-size: 12px;
 
     text-align: center;
+    overflow: hidden;
 }
 
 .footernew a.lchot {
@@ -89,16 +203,33 @@ a:hover {
 .footernewplat {
     font-size: 12px;
 
-    text-align: center;
+    margin: auto;
 }
 
 .footernewplat p {
     float: left;
 
+    width: 120px;
+    height: 50px;
     margin: 6px;
-    padding: 10px;
+    padding: 0;
 
     text-align: center;
 
     border: 1px solid;
+}
+
+.footernewplat .fl {
+    float: left;
+
+    padding: 3px;
+}
+
+.footernewplat .fr {
+    line-height: 20px;
+
+    float: right;
+
+    width: 72px;
+    padding: 6px 3px 0;
 }
