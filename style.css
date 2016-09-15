@@ -16,7 +16,7 @@ body {
     color: #0873c0;
 }
 
-.bd h3 a{
+.bd h3 a {
     font-size: 14px;
     line-height: 26px;
 
@@ -38,15 +38,17 @@ a:hover {
 }
 
 ul, h3 {
-	margin: 0;
+    margin: 0;
     padding: 0;
 }
 
 li {
-    list-style: none outside none;
-    margin: 0px;
-    height: 28px;
     line-height: 28px;
+
+    height: 28px;
+    margin: 0;
+
+    list-style: none outside none;
 }
 
 div {
@@ -99,6 +101,142 @@ div {
     padding: 0 10px 0 10px;
 }
 
+
+
+
+
+
+.contentLayout {
+    overflow: hidden;
+
+    width: 1000px;
+    margin: 12px auto 0;
+}
+
+.contentLayout .contentModBig {
+    overflow: hidden;
+}
+
+.contentMod {
+    float: left;
+
+    width: 320px;
+}
+
+.contentModBig {
+    width: 660px;
+}
+
+
+.contentMod .bd ul li {
+    line-height: 28px;
+
+    overflow: hidden;
+
+    height: 28px;
+}
+
+.bd .contentLeft {
+    overflow: hidden;
+}
+
+.bd .contentRight {
+    overflow: hidden;
+}
+
+.contentMod .bd .contentLeft {
+    display: inline;
+    float: left;
+
+    width: 320px;
+    padding: 17px 0 0;
+}
+
+.contentMod .bd .contentRight {
+    display: inline;
+    float: right;
+
+    width: 320px;
+    padding: 17px 0 0;
+}
+
+.contentMod .bd .contentLeft ul {
+    float: left;
+
+    margin-top: 8px;
+}
+
+.contentMod .bd ul li {
+    font-size: 14px;
+
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+
+    color: #8191a3;
+}
+
+.bd {
+    overflow: hidden;
+}
+
+#contentLayout .hd {
+    position: relative;
+
+    width: 100%;
+    height: 29px;
+
+    border-top: 1px solid #6daaea;
+}
+
+.contentLayout:after {
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+
+
+#sportsNba .bd .contentLeft {
+    width: 320px;
+    float: left;
+    padding: 17px 0 0;
+}
+
+#sportsNba .bd .contentLeft ul li{
+    float: left;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+}
+
+#sportsNba .bd .contentRight, #sportsNba .bd .contentRightNba {
+    width: 320px;
+    float: left;
+    padding: 9px 0 0 20px;
+}
+
+
+
+
+
+#book .bd .imgArea {
+    display: inline;
+    float: left;
+    overflow: hidden;
+
+    width: 85px;
+    height: 110px;
+    margin: 0 20px 0 auto;
+}
+
+
+
+
+
+
 .fl {
     display: inline;
     float: left;
@@ -110,9 +248,10 @@ div {
 }
 
 .layout {
-    margin: auto;
-    width: 1000px;
     overflow: hidden;
+
+    width: 1000px;
+    margin: auto;
 }
 
 .mt12 {
@@ -120,12 +259,13 @@ div {
 }
 
 .leftAreaContent .bd {
-    padding: 16px 0 8px;
     width: 320px;
+    padding: 16px 0 8px;
 }
 
 .leftAreaContent .ft {
     clear: both;
+
     width: 320px;
 }
 
@@ -169,21 +309,23 @@ div {
 
 .txDynamic .hd {
     float: left;
-    padding: 8px 15px 7px 0;
+
     width: 305px;
+    padding: 8px 15px 7px 0;
 }
 
 .txDynamic .bd {
     float: left;
-    padding: 3px 10px 9px 0;
+
     width: 310px;
+    padding: 3px 10px 9px 0;
 }
 
 .picFocus {
-	width: 1000px;
+    width: 1000px;
 }
 
-.picFocus .hd{
+.picFocus .hd {
     width: 1000px;
 }
 
@@ -192,8 +334,9 @@ div {
 .footernew {
     font-size: 12px;
 
-    text-align: center;
     overflow: hidden;
+
+    text-align: center;
 }
 
 .footernew a.lchot {
