@@ -106,6 +106,75 @@ div {
 
 
 
+
+
+
+
+
+
+.newsContent ul li {
+    font-size: 14px;
+
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+
+    color: #8191a3;
+}
+
+.newsContent h3 a {
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #0873c0;
+}
+
+#newsQuanguoH2, #newsDifangH2 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+
+    display: block;
+    float: left;
+    overflow: hidden;
+
+    width: auto;
+    height: 30px;
+    margin-top: 0;
+    padding: 3px 18px 0;
+
+    text-align: left;
+    text-indent: 0;
+
+    color: #0873c0;
+}
+
+.layoutLeft, .leftNews, .layoutRight {
+    height: 970px;
+}
+
+.leftAreaContent .hd {
+    width: 100%;
+    height: 29px;
+
+    border-top: 1px solid #c8dcf2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contentLayout {
     overflow: hidden;
 
@@ -200,21 +269,25 @@ div {
 
 
 #sportsNba .bd .contentLeft {
-    width: 320px;
     float: left;
+
+    width: 320px;
     padding: 17px 0 0;
 }
 
-#sportsNba .bd .contentLeft ul li{
+#sportsNba .bd .contentLeft ul li {
+    line-height: 28px;
+
     float: left;
+
     width: 100%;
     height: 28px;
-    line-height: 28px;
 }
 
 #sportsNba .bd .contentRight, #sportsNba .bd .contentRightNba {
-    width: 320px;
     float: left;
+
+    width: 320px;
     padding: 9px 0 0 20px;
 }
 
