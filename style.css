@@ -67,7 +67,7 @@ div {
     padding: 8px 0 0 12px;
 
     color: #fff;
-    background: url(chanelNavBeta2.jpg) no-repeat;
+    background: url(images/chanelNavBeta2.jpg) no-repeat;
 }
 
 .navBeta a {
@@ -104,13 +104,26 @@ div {
 
 
 
+.qm_i_1, .qm_i_2, .qm_i_3, .qm_i_4 {
+    background-image: url(images/iconNew.png);
+    background-repeat: no-repeat;
+}
+
+.qm_i_2 {
+    padding-left: 19px;
+    background-position: left -49px;
+}
+
+.qm_i_3 {
+    padding-left: 19px;
+    background-position: left -99px;
+}
 
 
-
-
-
-
-
+.newsContent ul {
+    overflow: hidden;
+    width: 100%;
+}
 
 .newsContent ul li {
     font-size: 14px;
@@ -121,6 +134,18 @@ div {
     width: 100%;
 
     color: #8191a3;
+}
+
+.newsContent .imgArea img{
+    float: left;
+
+    width: 108px;
+    height: 70px;
+}
+
+.newsContent .imgArea, .newsContent .txtArea {
+    margin-top: 11px;
+    margin-bottom: 4px;
 }
 
 .newsContent h3 a {
@@ -156,11 +181,13 @@ div {
 
 .layoutLeft {
     float: left;
+
     width: 700px;
 }
 
 .layoutRight {
     float: right;
+
     width: 280px;
 }
 
@@ -169,6 +196,18 @@ div {
     height: 29px;
 
     border-top: 1px solid #c8dcf2;
+}
+
+.leftAreaContent .hd h2 {
+    font-size: 14px;
+
+    float: left;
+
+    margin-top: 8px;
+
+    text-indent: 5px;
+
+    color: #0873c0;
 }
 
 .fleft {
@@ -186,6 +225,45 @@ div {
     color: #0873c0;
 }
 
+#today {
+    height: 252px;
+}
+
+.leftView .hd {
+    height: 32px;
+
+    border-top: 1px solid #c8dcf2;
+}
+
+.leftView .diaocha {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+#pronav {
+    font-size: 14px;
+
+    width: 278px;
+    height: 238px;
+
+    border: 1px solid #d2e1f1;
+}
+
+#productNav a {
+    font-family: 'arial';
+
+    color: #294c7f;
+}
+
+.Q-red {
+    color: #bd0a01!important;
+}
+
+.leftVideoNews, .leftDajiaaikan, .leftView, .leftAoyunNews {
+    width: 330px;
+}
+
 .rightArea {
     float: right;
 }
@@ -193,8 +271,60 @@ div {
 .rightProduct {
     width: 248px;
     padding-right: 30px;
+
+    background: url(images/productNavBg1.5.516.png) no-repeat right top;
 }
 
+.rightProduct .productLine01 {
+    width: 238px;
+    height: 26px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.rightProduct .productLine02 {
+    width: 238px;
+    height: 26px;
+    padding-top: 11px;
+    padding-left: 10px;
+
+    background: #f5f8fc;
+}
+
+.rightProduct .productLine03 {
+    line-height: 28px;
+
+    width: 238px;
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.rightProduct .productLine04 {
+    line-height: 28px;
+
+    width: 238px;
+    height: 59px;
+    padding-top: 3px;
+    padding-left: 10px;
+
+    background: #f5f8fc;
+}
+
+.rightProduct .productLine05 {
+    height: 29px;
+    height: 29px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+
+
+.financeTab ul li {
+    float: left;
+
+    width: 47px;
+}
 
 
 
@@ -274,6 +404,10 @@ div {
     width: 100%;
 
     color: #8191a3;
+}
+
+.contentMod .bd .contentRight {
+    padding: 9px 0 0;
 }
 
 .bd {
@@ -410,11 +544,19 @@ div {
     border-top: 1px solid #6daaea;
 }
 
+.txDynamic {
+    height: 208px;
+}
+
 .txDynamic .hd {
     float: left;
 
     width: 305px;
     padding: 8px 15px 7px 0;
+}
+
+.txDynamic .hd h2 {
+    margin: 0;
 }
 
 .txDynamic .bd {
