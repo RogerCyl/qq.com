@@ -111,17 +111,20 @@ div {
 
 .qm_i_2 {
     padding-left: 19px;
+
     background-position: left -49px;
 }
 
 .qm_i_3 {
     padding-left: 19px;
+
     background-position: left -99px;
 }
 
 
 .newsContent ul {
     overflow: hidden;
+
     width: 100%;
 }
 
@@ -136,7 +139,7 @@ div {
     color: #8191a3;
 }
 
-.newsContent .imgArea img{
+.newsContent .imgArea img {
     float: left;
 
     width: 108px;
@@ -326,12 +329,79 @@ div {
     width: 47px;
 }
 
+.rightZixuangu {
+    float: right;
+    overflow: hidden;
 
+    width: 278px;
+    height: 189px;
 
+    border: 1px solid #d2e1f1;
+}
 
+.rightAreaContent .hd {
+    height: 35px;
+}
 
+.rightAreaContent .hd h2 {
+    font-size: 14px;
 
+    float: left;
 
+    margin-top: 8px;
+
+    text-indent: 15px;
+
+    color: #0873c0;
+}
+
+.rightZixuangu .hd .financeSearch {
+    float: right;
+
+    margin: 10px 14px 0 0;
+}
+
+.rightZixuangu .hd .financeSearch input {
+    font-size: 12px;
+    line-height: 19px;
+
+    float: left;
+
+    width: 103px;
+    height: 19px;
+    padding-left: 4px;
+
+    color: #a0a0a0;
+    border: 1px solid #d4d4d4;
+    border-right: 0;
+}
+
+.rightZixuangu .hd .financeSearch #search_btn {
+    float: left;
+
+    width: 35px;
+    height: 21px;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+    background-position: -600px -160px;
+}
+
+.rightZixuangu .financeTab li {
+    line-height: 22px;
+
+    float: left;
+    overflow: hidden;
+
+    width: 47px;
+    height: 22px;
+
+    text-align: center;
+
+    color: #3b639f;
+    border-right: 1px solid #dde7f2;
+}
 
 
 
